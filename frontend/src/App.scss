@@ -1,0 +1,76 @@
+main {
+  margin: 0 auto;
+  width: 1024px;
+  overflow: hidden;
+}
+
+.demo {
+  display: flex;
+  gap: 15px;
+  overflow: scroll;
+}
+
+.container {
+  background-color: #d9d9d9;
+  display: flex;
+  height: fit-content;
+  padding: 1rem;
+  align-items: center;
+  width: 750px;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px calc(100% - 100px);
+  align-items: center;
+  width: 100%;
+}
+.container p {
+  margin: 0;
+}
+.hashtag {
+  padding: 0.25rem;
+  background: #dd9d9d;
+  display: flex;
+  height: 25px;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.blockid {
+  padding: 0.25rem;
+  background: #513434;
+  display: flex;
+  height: 25px;
+  align-items: center;
+  justify-content: start;
+  color: white;
+}
+.dataid {
+  width: 100%;
+  display: flex;
+}
+#inputdata {
+  flex: 1;
+}
+.button {
+  border: none;
+  background-color: #47b7cf;
+  padding: 10px 23px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.valid {
+  background-color: green !important;
+}
+
+.not-valid {
+  background-color: red !important;
+}
